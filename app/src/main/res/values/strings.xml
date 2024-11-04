@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Game App</string>
+    <string name="btn_achievements">Достижения</string>
+    <string name="btn_store">Магазин</string>
+    <string name="btn_settings">Настройки</string>
+    <string name="hint_achievements">Достижения</string>
+    <string name="hint_store">Магазин</string>
+    <string name="hint_settings">Настройки</string>
+    <string name="lbl_achievements">Достижения</string>
+    <string name="lbl_store">Магазин</string>
+    <string name="lbl_settings">Настройки</string>
+    <string name="sch_difficulty">Повышеная сложность</string>
+    <string name="sld_volume">Настройка звука</string>
+</resources>
