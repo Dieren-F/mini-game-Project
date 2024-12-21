@@ -8,19 +8,44 @@
     android:background="@color/skyBlue"
     tools:context=".MainActivity">
 
-    <FrameLayout
+    <LinearLayout
         android:layout_width="300dp"
-        android:layout_height="500dp"
-        android:background="@drawable/border_main"
+        android:layout_height="260dp"
+        android:orientation="vertical"
+        android:background="@drawable/border_blue"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:id="@+id/game_choose_menu"
         >
 
-        <androidx.recyclerview.widget.RecyclerView
+        <Button
+            android:id="@+id/buttonGameOne"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-    </FrameLayout>
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            app:cornerRadius="10dp"
+            android:backgroundTint="@color/menuGreen"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:text="@string/btn_game1" />
+
+        <Button
+            android:id="@+id/buttonGameTwo"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            app:cornerRadius="10dp"
+            android:backgroundTint="@color/menuGreen"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:text="@string/btn_game2" />
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"

@@ -4,6 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="skyBlue">#99D9EA</color>
     <color name="buttonYellow">#FFF200</color>
+    <color name="borderYellow">#999100</color>
     <color name="navy">#000080</color>
     <color name="menuGreen">#B5E61D</color>
     <color name="borderGreen">#749413</color>

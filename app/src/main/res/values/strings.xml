@@ -3,6 +3,8 @@
     <string name="btn_achievements">Достижения</string>
     <string name="btn_store">Магазин</string>
     <string name="btn_settings">Настройки</string>
+    <string name="btn_game1">Блоки</string>
+    <string name="btn_game2">Space Invaders</string>
     <string name="hint_achievements">Достижения</string>
     <string name="hint_store">Магазин</string>
     <string name="hint_settings">Настройки</string>
@@ -11,4 +13,8 @@
     <string name="lbl_settings">Настройки</string>
     <string name="sch_difficulty">Повышеная сложность</string>
     <string name="sld_volume">Настройка звука</string>
+    <string name="lbl_game_over">Game Over</string>
+    <string name="lbl_points">Очков: 0000</string>
+    <string name="btn_restart">Новая Игра</string>
+    <string name="btn_main_menu">Главное Меню</string>
 </resources>

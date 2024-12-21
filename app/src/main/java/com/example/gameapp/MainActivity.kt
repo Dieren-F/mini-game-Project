@@ -17,7 +17,8 @@ object MainScreen: Screens {
     override fun getListeners(): Map<Int, Screens> {
         val result = mapOf(R.id.buttonAchievements to AchievementScreen,
             R.id.buttonStore to StoreScreen,
-            R.id.buttonSettings to SettingsScreen)
+            R.id.buttonSettings to SettingsScreen,
+            R.id.buttonGameOne to FallingBlocksScreen)
         return result
     }
 }
@@ -54,6 +55,17 @@ object SettingsScreen: Screens {
         val result = mapOf(R.id.buttonAchievements to AchievementScreen,
             R.id.buttonStore to StoreScreen,
             R.id.buttonSettings to MainScreen)
+        return result
+    }
+}
+
+object FallingBlocksScreen: Screens {
+    override fun getLayout(): Int {
+        return R.layout.falling_blocks
+    }
+    override fun getListeners(): Map<Int, Screens> {
+        val result = mapOf(R.id.buttonRestart to FallingBlocksScreen,
+            R.id.buttonMainMenu to MainScreen)
         return result
     }
 }
