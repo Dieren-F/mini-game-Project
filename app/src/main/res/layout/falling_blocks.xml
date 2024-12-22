@@ -75,4 +75,10 @@
                 android:text="@string/btn_main_menu" />
         </RelativeLayout>
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/borderYellow"/>
 </RelativeLayout>
